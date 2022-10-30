@@ -4,6 +4,6 @@ read -n1 -r -p "Commit failed, please exit Zotero first!" key
 else
 echo "run git add, commit, and push"
 git add .
-git commit -m "`date +\"%Y_%m_%d-%H%M%S\"`"
+git commit -m "`date +\"%Y_%m_%d-%H:%M\"`"
 git push origin main
 fi
