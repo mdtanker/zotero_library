@@ -1,0 +1,16 @@
+Present-day and paleo bedrock elevations for the northern Wilkes Subglacial Basin.
+
+This folder contains eight separate grid files along with this readme document.
+
+Four grid files are available:
+1) Bedrock elevation at the present-day (Fig. 1b in main manuscript).
+2) Reconstructed bedrock elevation at the Eocene-Oligocene Boundary (ca. 34 Ma) (Fig. 3a in main manuscript).
+3) Reconstructed bedrock elevation at the mid-Miocene (ca. 14 Ma) (Fig. 3b in main manuscript).
+4) Reconstructed bedrock elevation at the mid-Pliocene (ca. 3 Ma) (Fig. 3c in main manuscript).
+
+These files are available in two formats: (1) NetCDF (produced in GMT v.5). These ‘.nc’ files are projected in Polar Stereographic meters (SCAR / BEDMAP projection - origin at 90ºS, true scale at 71ºS.). The z field is bedrock elevation in meters referenced to mean sea level (the GL04C-geoid, the datum to which Bedmap2 is referenced). Grids are interpolated at 1 km horizontal resolution. (2) Ascii text file format. These ‘.xyz’ files contain three columns: longitude, latitude and bedrock elevation. Elevations are in meters referenced to mean sea level (the GL04C-geoid).
+
+Suitable citation for these grid files is:
+Paxman, G. J. G. et al. 2018. Bedrock erosion surfaces record former East Antarctic Ice Sheet extent. Geophysical Research Letters. 
+
+guy.j.paxman@durham.ac.uk
