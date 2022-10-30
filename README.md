@@ -17,4 +17,4 @@ This will rename all files with their metadata, and place them into author subfo
 
 Close Zotero, and in bash (or GitBash) navigate to this directory and run . git_push.sh
 
-This will push all changes or additional files to GitHub.
+This will push all changes or additional files to GitHub, with the date as the commit message.
