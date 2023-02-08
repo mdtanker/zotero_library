@@ -8,6 +8,14 @@ This enables using Zotero on multiple computers and syncing the files with Git. 
 I've also included a bash script in the repo (from [here](https://forums.zotero.org/discussion/72835/using-git-in-combination-with-zotero-for-version-control-and-collaboration)) which checks whether Zotero is closed, then performs a git add, commit, and push of the local repo.
 
 # Instructions
+## Setup new computer
+1) clone this repo to your computer
+2) install [Zotero](https://www.zotero.org)
+3) install the [ZotFile](http://zotfile.com) extension for Zotero
+4) install the [Better BibTeX](https://retorque.re) extension for Zotero
+5) enable Zotero Sync and sign into your account
+6) check Zotero settings match the options in `/settings_menu/`.
+7) set the Base directory (Properties -> Advanced -> Files and Folders) to the `/files/` folder of your local clone of this repo.
 
 ## Add references and pdf's through Zotero Connect
 
