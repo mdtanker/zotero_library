@@ -39,6 +39,8 @@ Since files are now stored outside of the Zotero directory, deleting a reference
 
 ## Sync to Git
 
+Select all in Zotero, right-click, Manage Attachments -> Rename and Move.
+
 Close Zotero, and in bash (or GitBash) navigate to this directory and run
 
 ```
